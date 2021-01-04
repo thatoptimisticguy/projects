@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Age Verification Widget</title>
+	<link rel="stylesheet" type="text/css" href="age_verification.css">
+	<script type="text/javascript">
+		var modal = document.querySelector("#modal");
+var modalOverlay = document.querySelector("#modal-overlay");
+var closeButton = document.querySelector("#close-button");
+var openButton = document.querySelector("#open-button");
+
+closeButton.addEventListener("click", function() {
+  modal.classList.toggle("closed");
+  modalOverlay.classList.toggle("closed");
+});
+
+openButton.addEventListener("click", function() {
+  modal.classList.toggle("closed");
+  modalOverlay.classList.toggle("closed");
+});
+	</script>
+
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis viverra nisl, ut malesuada lorem. Fusce a nisi dignissim, consectetur ante a, consectetur nibh. Mauris sem massa, tempus id placerat vitae, rutrum id metus. Maecenas at leo eu nibh tempor maximus a ultrices nibh. Aliquam tincidunt sem sit amet odio finibus tempor. Nunc eu odio purus. Nulla eleifend blandit ex, cursus pretium nisi. Vestibulum sit amet lectus sed elit volutpat semper eget ut enim.
+
+Sed molestie diam at sollicitudin dictum. Integer vel pellentesque diam, in ultrices orci. Maecenas luctus turpis sed neque consectetur, sed viverra dolor blandit. In id massa elit. Aliquam id ex maximus, commodo metus in, viverra odio. Donec rhoncus dapibus neque, at interdum mi pulvinar eu. Proin blandit quam quis mi blandit, in facilisis nunc luctus. Mauris venenatis aliquet orci. Mauris blandit porttitor elit et accumsan. Suspendisse posuere, augue sed volutpat rhoncus, arcu odio vehicula velit, vitae feugiat dui nisi sed leo. Donec elementum faucibus mauris, eget fermentum ex lobortis at. Maecenas tristique purus mi. In facilisis elit ac erat imperdiet rhoncus. Etiam tincidunt ac lectus at cursus. In luctus pretium sodales. Donec ut ornare enim.
+
+Pellentesque tincidunt rhoncus eros, id congue nunc. Nam sagittis, velit at vulputate pellentesque, magna augue venenatis ligula, vel sagittis tellus ligula vitae nisl. Vivamus vel massa et arcu consectetur egestas sit amet at augue. Donec ut consequat lacus. Cras sed ex vel est porta sagittis ut a justo. Nunc justo lectus, efficitur sit amet mi eu, posuere aliquet tellus. Vestibulum ut elit ut turpis dapibus euismod non vulputate nisl.
+
+In tristique, sem at scelerisque tempor, justo lorem ornare justo, id volutpat ipsum tortor vitae magna. Nunc ac justo velit. Sed ex felis, suscipit eu congue vel, vulputate at enim. Integer rutrum enim sed tellus venenatis, a iaculis elit interdum. Suspendisse ullamcorper aliquam hendrerit. Cras ultricies dolor ut lacus egestas, quis aliquet mauris elementum. Vivamus id venenatis leo. Nullam diam velit, blandit non turpis et, interdum aliquet urna. Vestibulum blandit eleifend justo, et ornare velit fermentum quis. Ut sem urna, sollicitudin non leo sed, ullamcorper tristique metus. Mauris id interdum enim. Phasellus est libero, lacinia ac tincidunt ac, condimentum congue nisi. Praesent ullamcorper nulla nec massa fringilla cursus. Aenean viverra molestie neque, et imperdiet justo interdum ac.
+
+Sed id congue arcu. Quisque pulvinar tellus vitae nisl bibendum, sed aliquam risus aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In a elementum ante, eget vulputate massa. Proin maximus nunc feugiat mauris venenatis, quis faucibus ante elementum. Quisque nisl dolor, porta in elit in, ornare maximus turpis. Duis metus lacus, fermentum et bibendum a, laoreet sed felis. Pellentesque diam justo, varius et nunc vel, malesuada accumsan nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum tincidunt feugiat dolor, sit amet condimentum mi interdum ac. Vivamus urna tellus, pretium ut neque in, tincidunt iaculis diam. Integer ut risus imperdiet, iaculis neque id, fringilla nulla. Nullam vehicula massa id egestas malesuada. Duis neque metus, convallis nec massa a, egestas aliquam purus.</p>
+
+<div class="modal-overlay" id="modal-overlay"></div>
+
+<div class="modal" id="modal">
+  <button class="close-button" id="close-button">Obvious Close Button</button>
+  <div class="modal-guts">
+    <h1>Modal Example</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita corrupti laudantium aperiam, doloremque explicabo ipsum earum dicta saepe delectus totam vitae ipsam doloribus et obcaecati facilis eius assumenda, cumque.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita corrupti laudantium aperiam, doloremque explicabo ipsum earum dicta saepe delectus totam vitae ipsam doloribus et obcaecati facilis eius assumenda, cumque.</p>
+    
+  </div>
+</div>
+
+<button id="open-button" class="open-button">Open Button</button>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+img{
+	height: 100px;
+	width: 150px;
+}
+
+.main-para{
+	margin: 15px;
+	padding: 25px;
+}
+
+.para-1{
+	margin: 15px;
+	padding: 10px;
+	width: 520px;
+}
+
+#image-1{
+	margin-top: 45px;
+	display: block;
+}
+
+.main-para > .subtitle {
+	font-family: 'Pacifico', cursive;
+	width: 50%;
+	color: blue;
+	background: yellow;
+}
+
+
+
+

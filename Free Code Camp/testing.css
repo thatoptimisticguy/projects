@@ -1,0 +1,31 @@
+.main_dropdown{
+	color: blue;
+	padding: 20px;
+	background-color: yellow;
+	border: none;
+	cursor: pointer;
+}
+.main_dropdown:hover{
+	background-color: red; 
+	text-transform: uppercase;
+}
+.dropdown-child{
+	display: none;
+	background-color: skyblue;
+    min-width: 200px;
+}
+
+.dropdown{
+	display: inline-block;
+	position: relative;
+}
+
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: absolute;
+}
+.dropdown:hover .dropdown-child {
+    display: absolute;
+}

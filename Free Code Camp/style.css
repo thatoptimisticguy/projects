@@ -1,0 +1,212 @@
+body{
+	background: rgb(118, 183, 245, 0.4);
+	/*background-image: url(https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);*/
+	font-size: 1.25em; 
+	text-align: justify;
+	font-family: "lato";
+}
+
+h1{
+		font-weight: 450;
+		font-style: oblique;
+}
+
+h2 + a {
+	color: rgb(252, 173, 3);
+}
+
+li{
+	color: black;
+}
+
+
+textarea ~ button{
+	color: yellow;
+}
+
+ul > li{
+	color: green;
+}
+
+
+/*ul li {
+	color: blue;
+}*/
+
+.first{
+	font-size: 15px;
+}
+
+li[class=first]{
+	font-size: 31px;
+}
+
+li[class~=test]{
+	font-size: 51px;
+	color: yellow;
+}
+
+#title{
+	color: rgb(247, 247, 245);
+}
+
+.Subtitles{
+	color: rgb(97, 255, 255);
+}
+
+#service-image{
+	height: 400px;
+	width: 40%;
+	background: linear-gradient(to right, rgb(99, 150, 87), rgba(99, 150, 87,0));
+	/*background-repeat: no-repeat;*/
+	background-color: red;
+	background-size: contain;
+	border: 10px double rgb(28,35,42);
+}
+
+.mylink{
+	text-decoration: line-through;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.italics{
+	font-style: italic;
+}
+
+
+#about-us-image{
+	height: 300px;
+	width: 60%;
+	border: 6px solid rgb(50,50,50);
+	margin: 80px 40px ;
+	padding: 100px 20px 5px 0;
+		float: right;
+}
+
+.second-test{
+	visibility: hidden;
+}
+
+.table{
+	display: inline;
+}
+
+.container{
+	height: 220px;
+	display: flex;
+	flex-direction: row;
+	//flex-wrap: wrap;
+	justify-content: center;
+		align-items: center;
+		background: #000fff;
+}
+
+.container-item{
+	border: 1px solid green;
+	margin: 5px;
+	width: 12px;
+	background: green;
+	padding: 10px;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+}
+.footer{
+	margin-top: 50px;
+	top: 25px;
+	border: 2px solid black;
+	height: 4vw;
+	width: 100vw;
+	color: white;
+	background: black;
+	text-align: center;
+	padding: 15px;
+}
+.container-item:hover{
+	background-color: pink;
+}
+
+.check{
+	color: red;
+}
+
+#check2{
+	color: yellow;
+}
+
+form + button{
+	color: rgb(252, 173, 3);
+}
+.grid-container{
+	height: 500px;
+	margin: 10px;
+	background: white;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+
+}
+.grid-item{
+	width: 70px;
+	line-height: 40px;
+	border: 1px solid blue;
+	margin: 10px;
+	text-align: center;
+	color: black;
+	font-size:25px;
+}
+
+.form > h3{
+	color: rgb(153, 153, 12);
+}
+
+#message{	
+	width: 150px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.submit-button{
+	background-color: rgb(89, 50, 255);
+	color: white;
+	margin: 20px 15px;
+	font-size: 20px;
+	padding: 10px 10px;
+	transition: all 200ms;
+	transform: rotate(-90deg);
+}
+
+.submit-button:hover{
+	background-color: rgb(147, 187, 255);
+	padding:20px ;
+
+}
+
+#about-me{
+	animation-name: red-to-black;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-delay: 2s;
+	animation-iteration-count: 3;
+	animation-direction: alternate;
+}
+
+@keyframes red-to-black{
+	0%{
+		background: red; 
+		transform: translate(0px,0px);
+	}
+
+	50%{
+		background: yellow; 
+		transform: translate(10px,10px);
+	}
+
+	100%{
+		background: black; 
+		transform: translate(20px,20px);
+	}
+
+}
+

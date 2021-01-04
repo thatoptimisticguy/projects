@@ -1,0 +1,33 @@
+.slider {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  background: red;
+  margin: auto;
+  position: center;
+  vertical-align: middle;
+  font-size: 45px;
+  text-align: center;
+}
+.slide {
+  width: 150px;
+  flex-shrink: 0;
+  height: 100%;
+  line-height: 155px;
+}
+
+  button.prev, button.next {
+    display: flex; font-size: 32px;
+    align-items: center; justify-content: center;
+    color: #FFF; background-color: #333;
+    border-radius: 50%;
+    width: 44px; height: 44px;
+  }
+  button.prev {
+    position: absolute; left: 0; top: 80px;
+  }
+  button.next {
+    position: absolute; right: 0; top: 80px;
+  }
